@@ -1,106 +1,127 @@
-p{
-  text-align: left;
-  padding-inline-start: 10px;
-  padding-top: 5px;
-  color: aliceblue;
+p {
+    text-align: left;
+    padding-inline-start: 10px;
+    padding-top: 5px;
+    color: aliceblue;
 }
-h3{
-  font-size: 13px;
-  margin: 0 0 0 5px;
-  color: aliceblue;
+h1{
+    font-size: 16px;
+    margin: -20px 0 0 -14px;
+    font-weight: 300;
 }
-h5{
+h2 {
+    font-size: 13px;
+    margin: -15px 0 0 -27px;
+}
+
+h3 {
+    font-size: 13px;
+    margin: 0 0 0 5px;
+    color: aliceblue;
+}
+
+h5 {
     margin: 0 auto;
     text-align: center;
     color: gray;
 }
-hr{
-  margin: 0;
+
+hr {
+    margin: 0;
 }
-a{
-  color: aliceblue;
-  margin: 0 0 0 9.25px;
-  font-size: 20px;
+
+a {
+    color: aliceblue;
+    margin: 0 0 0 9.25px;
+    font-size: 20px;
 }
-p.reached{
-  text-align: left;
-  padding-inline-start: 50px;
-  padding-top: 5px;
-  color: #353738;
+
+p.reached {
+    text-align: left;
+    padding-inline-start: 50px;
+    padding-top: 5px;
+    color: #353738;
 }
-.block{
-  width: 365px;
-  height: 161px;
-  direction: ltr;
- background: #efeeee;
-  border-radius: 8px;
-  box-shadow: 0 0 5px;
+
+.block {
+    width: 365px;
+    height: 161px;
+    direction: ltr;
+    background: #efeeee;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
 }
+
 #container {
-  width: 365px;
-  height: 161px;
-  margin:0 auto;
-  overflow:visible;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin-left:-200px;
-  margin-top:-100px;
-  background:#ffffff;
+    width: 365px;
+    height: 161px;
+    margin: 0 auto;
+    overflow: visible;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    background: #ffffff;
 }
-.topLine{
-  background:#000000a3;
-  width: 365px;
-  height: 35px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+
+.topLine {
+    background: #000000a3;
+    width: 365px;
+    height: 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
-.insideBlock{
-  width: 335px;
-  height: 95px;
-  direction: ltr;
-  background: #fefafa;
-  border-radius: 4px;
-  box-shadow: 0 0 1px;
-  margin:0 auto;
-  overflow:visible;
-  position:absolute;
-  left:50%;
-  top:50%;
-  margin-left: -168px;
-  margin-top: -13px;
+
+.insideBlock {
+    width: 335px;
+    height: 95px;
+    direction: ltr;
+    background: #fefafa;
+    border-radius: 4px;
+    box-shadow: 0 0 1px;
+    margin: 0 auto;
+    overflow: visible;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -168px;
+    margin-top: -13px;
 
 }
+
 .progress-bar {
-  position: relative;
-  height: 20px;
-  width: 350px;
-  border-radius: 50px;
-  border: 1px solid #333;
+    position: relative;
+    height: 20px;
+    width: 350px;
+    border-radius: 50px;
+    border: 1px solid #333;
 }
 
 .filler {
-  background: #1DA598;
-  height: 100%;
-  border-radius: inherit;
-  transition: width .2s ease-in;
+    background: #1DA598;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
 }
 
-#myMoney{
-  width: 10%;
-  height: 30px;
+#myMoney {
+    width: 10%;
+    height: 30px;
 
-  text-align: center; /* To center it horizontally (if you want) */
-  line-height: 30px; /* To center it vertically */
-  color: #2d2d2d;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: #2d2d2d;
 }
-#target{
-  width: 50px;
-  height: 45px;
-  background: #898282;
-  border-radius: 3px;
-  margin: -29px 0 0px 203px;
+
+#target {
+    width: 50px;
+    height: 45px;
+    background: #898282;
+    border-radius: 3px;
+    margin: -29px 0 0px 203px;
 }
-#progress-use{
-  width: 135px;
+
+#progress-use {
+    width: 135px;
 }
