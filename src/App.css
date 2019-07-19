@@ -1,33 +1,95 @@
-.App {
-  text-align: center;
+p{
+  text-align: left;
+  padding-inline-start: 10px;
+  padding-top: 5px;
+  color: aliceblue;
+}
+p.reached{
+  text-align: left;
+  padding-inline-start: 50px;
+  padding-top: 5px;
+  color: #353738;
+}
+.block{
+  width: 365px;
+  height: 161px;
+  direction: ltr;
+ background: #efeeee;
+  border-radius: 8px;
+  box-shadow: 0 0 5px;
+}
+#container {
+  width: 365px;
+  height: 161px;
+  margin:0 auto;
+  overflow:visible;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-200px;
+  margin-top:-100px;
+  background:#ffffff;
+}
+.topLine{
+  background:#000000a3;
+  width: 365px;
+  height: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.insideBlock{
+  width: 335px;
+  height: 95px;
+  direction: ltr;
+  background: #fefafa;
+  border-radius: 4px;
+  box-shadow: 0 0 1px;
+  margin:0 auto;
+  overflow:visible;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left: -168px;
+  margin-top: -13px;
+
+}
+.progress-bar {
+  position: relative;
+  height: 20px;
+  width: 350px;
+  border-radius: 50px;
+  border: 1px solid #333;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.filler {
+  background: #1DA598;
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#myMoney{
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#Progress_Status {
+  width: 150px;
+  background-color: #ddd;
+  display: -webkit-inline-flex;
+  height: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#myprogressBar {
+  width: 1%;
+  height: 15px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  margin-right: auto;
 }
