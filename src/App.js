@@ -21,6 +21,7 @@ class App extends Component {
                 money.style.width = start + '$';
                 money.innerHTML = start * 1 + '$';
             }
+
         }
     }
 
