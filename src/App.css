@@ -4,6 +4,24 @@ p{
   padding-top: 5px;
   color: aliceblue;
 }
+h3{
+  font-size: 13px;
+  margin: 0 0 0 5px;
+  color: aliceblue;
+}
+h5{
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+}
+hr{
+  margin: 0;
+}
+a{
+  color: aliceblue;
+  margin: 0 0 0 9.25px;
+  font-size: 20px;
+}
 p.reached{
   text-align: left;
   padding-inline-start: 50px;
@@ -71,25 +89,18 @@ p.reached{
 #myMoney{
   width: 10%;
   height: 30px;
-  background-color: #4CAF50;
+
   text-align: center; /* To center it horizontally (if you want) */
   line-height: 30px; /* To center it vertically */
-  color: white;
+  color: #2d2d2d;
 }
-
-#Progress_Status {
-  width: 150px;
-  background-color: #ddd;
-  display: -webkit-inline-flex;
-  height: 15px;
+#target{
+  width: 50px;
+  height: 45px;
+  background: #898282;
+  border-radius: 3px;
+  margin: -29px 0 0px 203px;
 }
-
-#myprogressBar {
-  width: 1%;
-  height: 15px;
-  background-color: #4CAF50;
-  text-align: center;
-  line-height: 32px;
-  color: black;
-  margin-right: auto;
+#progress-use{
+  width: 135px;
 }
