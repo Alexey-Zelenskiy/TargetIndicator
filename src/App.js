@@ -6,21 +6,16 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLoading: true
+            isLoading: true,
+            data:''
         };
     }
 
     componentDidMount() {
-        fetch('http://alex.devel.softservice.org/testapi/')
-            .then((response) => {
-                console.log(response.status);
-                return response.text();
-            })
-            .then((text) => {
-                require(text);
-                console.log('text: ', text);
-            })
-            .catch((error) => console.log(error));
+        const url = 'http://alex.devel.softservice.org/testapi/';
+        fetch(url)
+            .then(response => response.json())
+            .then(data => console.log(data));
     }
 
 progressUser(time)
@@ -78,6 +73,7 @@ render()
                 <div id="myMoney">0$</div>
             </div>
             <button onClick={() => this.progressUser()}>Start</button>
+            <h2>{this.props.data}</h2>
 
         </div>
 
